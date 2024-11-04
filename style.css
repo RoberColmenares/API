@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    align-items: center;
+    background-color: #090d16 ;
+
+}
+
+.cabezera{
+    text-align: center;
+    width: 30%;
+    margin: 3% 0%;
+    color: white;
+
+}
+
+.cabezera h1{
+    margin: 2%;
+    font-size: xx-large;
+}
+
+.contenedor{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    width: 20%;
+    padding: 3%;
+    color: white;
+
+    background-color: #737f9b;
+    border-radius: 10px;
+}
+
+
+select {
+    width: 70%;
+    margin-top: 1%;
+    text-align: center;
+    font-size: small;
+    padding: 2%;
+    border-radius: 4px;
+}
+
+button {
+    padding: 2%;
+    background-color: aqua;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 70%;
+    align-items: center;
+    margin-bottom: 5%;
+
+}
+
+input {
+    width: 66%;
+    padding: 2%;
+    margin-top: 1%;
+    border-radius: 5px;
+
+}
